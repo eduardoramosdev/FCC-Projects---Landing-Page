@@ -1,0 +1,58 @@
+
+/* Global */
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 20em;
+    background-color: lightgray;
+    line-height: 1.6em;
+    margin: 0;
+}
+
+.container {
+    width: 58%;
+    margin: auto;
+    text-align: center;
+}
+
+/* Header */
+
+#header {
+    position: absolute;
+    width: 100%;
+    min-height: 100%;
+    background-image: url(/images/several-scissors-1319460.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border: 1px solid black;
+}
+
+#header h1 {
+    color: rgb(255, 255, 255);
+    letter-spacing: 5px;
+    margin-top: 10em;
+}
+
+.container nav {
+    display: block;
+}
+.container ul {
+    text-transform: capitalize;
+    list-style: none;
+}
+
+.container a {
+    font-size: 20px;
+    color: bisque;
+    text-transform: capitalize;
+    list-style: none;
+    text-decoration: none;
+    letter-spacing: 2px;
+}
+
+.end {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+}
+
